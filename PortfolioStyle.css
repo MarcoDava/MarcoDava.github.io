@@ -1,0 +1,119 @@
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+nav li {
+    font-family:  "Roboto";
+    display: inline;
+    text-align: center;
+    flex: 1;
+    font-size: 20px;
+}
+
+main, header, nav, article, aside, footer, section {
+    background-color: rgba(191, 191, 192, 0.39);
+}
+
+.logo{
+    width:75px;
+    height:75px;
+}
+
+html {
+    margin-top: 40px;
+    background-color: #d0ecf080;
+}
+
+:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+h1{
+    font-family:  "Roboto";
+    margin-left: 20%;
+}
+
+/*.About-Me{
+    
+}*/
+
+.Marco-Desc{
+    font-family:  "Roboto";
+    margin-left:20%;
+    margin-right: 20%;
+}
+
+.Socials-List{
+    display:flex;
+    flex-wrap:wrap;
+    list-style-type: none;
+    margin-left:20%;
+    gap:20px;
+}
+
+.Socials-Item{
+    width:30px;
+    height:30px;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Socials-Icons{
+    width: 100%;
+    height: 100%;
+}
+.Socials-Item:hover {
+    transform: scale(1.20); /* Slightly enlarge */
+  }
+
+body {
+    margin: 0;
+    padding: 20px;
+  }
+/* List container */
+.Project-List {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center the items */
+  }
+  
+  /* Individual project box */
+  .Project-Item {
+    width: 250px; /* Adjust as needed */
+    border: 1px solid #3f3a3a;
+    border-radius: 8px;
+    background-color: #e6e5e5;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Image inside the project box */
+  .Project-Image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px;
+  }
+  
+  /* Project description */
+  .Project-Desc {
+    font-family:  "Roboto";
+    margin-top: 12px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Hover effect for project boxes */
+  .Project-Item:hover {
+    transform: scale(1.05); /* Slightly enlarge */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
