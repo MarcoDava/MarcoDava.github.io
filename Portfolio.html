@@ -4,17 +4,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marco's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="PortfolioStyle.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 <body>
     <header>
         <nav>
           
-            <ul>
+            <ul class="nav-list">
                 <img class="logo" src="Marco_logo-02.svg" alt="Marco's Logo">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="nav-item">   
+                    <a href=#AboutMe> 
+                        <img class="nav-buttons" src="info.png" alt="About Me">
+                    </a>
+                    <p class="nav-desc">
+                        About me
+                    </p>    
+                </li>
+                <li class="nav-item">
+                    <a href="#Projects"> 
+                        <img class="nav-buttons" src="pencil.png" alt="About Me">
+                    </a>
+                    <p class="nav-desc">
+                        Projects
+                    </p>
+                </li>
+                <li class="nav-item">
+                    <a href="#Skills"> 
+                        <img class="nav-buttons" src="briefing.png" alt="About Me">
+                    </a>
+                    <p class="nav-desc">
+                        Skills
+                    </p>
+                </li>
             </ul>
         </nav>
     </header>
@@ -23,7 +44,7 @@
 
     <main>
         <section class="About-Me">
-            <h1>About Me</h1>
+            <h1>Marco Dava</h1>
             <p class="Marco-Desc">A Second Year McMaster Software Engineering Student, with a strong foundation in web development and experience in collaborative enviroments</p>
             <ul class="Socials-List">
                 <li class="Socials-Item">
@@ -97,11 +118,47 @@
         
         <section class="Skills">
             <h1>Skills</h1>
-            <p class="Marco-Skills">Languages</p>
+            <p class="Marco-Skills">Languages:</p>
+            <ul class="Skills-List">
+                <li class="Skills-Item">        
+                    <img class="Skills-Icons" src="java.png" alt="Java Logo">
+                    <p class="Skills-Desc">Java</p>
+                </li>
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="python.png" alt="Python Logo">
+                    <p class="Skills-Desc">Python</p>
+                </li>
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="letter-c.png" alt="C Logo">
+                    <p class="Skills-Desc">C</p>
+                </li>
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="hashtag.png" alt="C# Logo">
+                    <p class="Skills-Desc">C#</p>
+                </li>
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="java-script.png" alt="JavaScript Logo">
+                    <p class="Skills-Desc">JavaScript</p>
+                </li>
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="html.png" alt="HTML Logo">
+                    <p class="Skills-Desc">HTML</p>
+                </li>                
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="css-3.png" alt="CSS Logo">
+                    <p class="Skills-Desc">CSS</p>
+                </li>
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="admin.png" alt="Bash Logo">
+                    <p class="Skills-Desc">Bash</p>
+                </li>
+            </ul>
+            <br>
+            <p class="Marco-Skills">Frameworks:</p>
             <ul class="Skills-List">
                 <li class="Skills-Item">
                     <a href="https://www.linkedin.com/in/marcodava/">
-                        <img class="Skills-Icons" src="icons8-linkedin.svg" alt="LinkedIn Logo">
+                        
                     </a>
                 </li>
                 <li class="Skills-Item">
