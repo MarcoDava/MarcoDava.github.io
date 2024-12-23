@@ -1,5 +1,9 @@
 .logo{
   margin-left: 2%;
+  width:50px;
+  position:absolute;
+  top:12;
+  left:0;
 }
 
 .nav-list{
@@ -19,6 +23,7 @@
     justify-content: center;
     text-align: center;
     height:50px;
+    transition: transform 0.3s ease
 }
 
 .nav-link{
@@ -32,6 +37,22 @@
   text-decoration: none;
   color:black;
 }
+
+.Selected-Nav{
+  background-color: rgb(229, 69, 69);
+  color:white;
+  padding:10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 5px;
+}
+
+.Intro{
+  text-indent: 10px;
+  background-color:rgb(229, 69, 69);
+  color:White;
+  border-radius: 5px;
+}
 .Marco-Desc{
   font-family:  "Roboto";
   margin-left:20%;
@@ -43,30 +64,40 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
 }
+
 article, aside, footer, section {
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
 }
+
 main{
   margin:90px;
-}
-.logo{
-    width:75px;
-    height:75px;
 }
 
 html {
     margin-top: 30px;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
 }
 
 h1{
     font-family:  "Roboto";
     margin-left: 20%;
+    margin-right: 20%;
+    font-size: 24px;
 }
 
+h2{
+  font-family: Roboto;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 18px;
+}
+
+hr{
+  margin-top:3%
+}
 /*.About-Me{
     
 }*/
@@ -124,23 +155,24 @@ body {
   .Project-Title{
     font-family: Roboto;
     font-size: 20;
-    background-color: black;
+    background-color: rgb(229, 69, 69);
     color:white;
     border-radius: 5px;
   }
 
   /* Image inside the project box */
   .Project-Image {
-    width: 100%; /* Full width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 4px;
+    width: 250px; /* Full width */
+    height: 250px; /* Maintain aspect ratio */
+    border-radius: 20px;
   }
   
   /* Project description */
   .Project-Desc {
     font-family:  "Roboto";
-    margin-top: 12px;
     font-size: 14px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
   }
   
   /* Hover effect for project boxes */
@@ -176,12 +208,19 @@ body {
 .skills-Desc {
   font-family:  "Roboto";
   text-align: center;
-  margin-top: 12px;
   font-size: 12px;
   color: #333;
 }
 
 .Skills-Item:hover {
   transform: scale(1.20); /* Slightly enlarge */
+}
+
+.Project-Headers{
+  
+}
+
+.Project-Headers-Background{
+  background-color:rgb(208, 231, 251);
 }
   
