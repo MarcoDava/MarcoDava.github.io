@@ -42,8 +42,8 @@
   background-color: rgb(229, 69, 69);
   color:white;
   padding:10px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
   border-radius: 5px;
 }
 
@@ -68,13 +68,12 @@ header{
   border-radius: 10px;
 }
 
-article, aside, footer, section {
-  background-color: rgb(255, 255, 255);
-}
-
 main{
   margin:90px;
 }
+
+/* .Seperators{
+} */
 
 html {
     margin-top: 30px;
@@ -107,12 +106,16 @@ hr{
     margin-left:20%;
     margin-right: 20%;
 }
+.Resume-Link{
+  text-decoration: none;
+  color:rgb(229, 69, 69);
+}
 
 .Socials-List{
     display:flex;
     flex-wrap:wrap;
     list-style-type: none;
-    margin-left:20%;
+    margin-left:17%;
     gap:20px;
 }
 
@@ -130,10 +133,6 @@ hr{
     transform: scale(1.20); /* Slightly enlarge */
   }
 
-body {
-    margin: 0;
-    padding: 20px;
-  }
 /* List container */
 .Project-List {
     display: flex;
@@ -177,7 +176,7 @@ body {
   
   /* Hover effect for project boxes */
   .Project-Item:hover {
-    transform: scale(1.05); /* Slightly enlarge */
+    transform: scale(1.10); /* Slightly enlarge */
   }
 
 .Marco-Skills{
@@ -219,8 +218,36 @@ body {
 .Project-Headers{
   
 }
+.Seperators{
+
+  line-height: 2000%;
+ 
+}
 
 .Project-Headers-Background{
-  background-color:rgb(208, 231, 251);
+  background-color:rgb(229, 69, 69);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  color:white;
 }
-  
+.Project1-Desc{
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Roboto;
+}
+footer{
+  padding-top:30px;
+  background-color: rgb(0, 0, 0);
+}
+
+footer .Socials-List{
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.Footer-Desc{
+  font-family: Roboto;
+  text-align: center;
+  color:white;
+}
