@@ -112,7 +112,7 @@ hr{
 }
 
 .Socials-List{
-    display:flex;
+    display: flex;
     flex-wrap:wrap;
     list-style-type: none;
     margin-left:17%;
@@ -128,6 +128,7 @@ hr{
 .Socials-Icons{
     width: 100%;
     height: 100%;
+    border-radius: 5px;
 }
 .Socials-Item:hover {
     transform: scale(1.20); /* Slightly enlarge */
@@ -220,7 +221,7 @@ hr{
 }
 .Seperators{
 
-  line-height: 2000%;
+  line-height: 1600%;
  
 }
 
@@ -242,12 +243,48 @@ footer{
 }
 
 footer .Socials-List{
-  justify-items: center;
-  flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  gap: 20px; /* Space between items */
+  justify-content: center; /* Center the items */
 }
 
 .Footer-Desc{
   font-family: Roboto;
   text-align: center;
   color:white;
+}
+.Project-List {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  gap: 20px; /* Space between items */
+  justify-content: center; /* Center the items */
+}
+
+/* Individual project box */
+.Project-Item {
+  width: 250px; /* Adjust as needed */
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.Project-Title{
+  font-family: Roboto;
+  font-size: 20;
+  background-color: rgb(229, 69, 69);
+  color:white;
+  border-radius: 5px;
+}
+
+/* Image inside the project box */
+.Project-Image {
+  width: 250px; /* Full width */
+  height: 250px; /* Maintain aspect ratio */
+  border-radius: 20px;
 }
