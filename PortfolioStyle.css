@@ -66,6 +66,7 @@ header{
   width: 100%;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
+  z-index: 2;
 }
 
 main{
@@ -101,9 +102,18 @@ hr{
     
 }*/
 
+.Personal-Picture{
+  width:200px;
+  height:200px;
+  border-radius: 60px;
+  float:left;
+  margin-top:-20px;
+  z-index: 1;
+}
+
 .Marco-Desc{
     font-family:  "Roboto";
-    margin-left:20%;
+    margin-left: 20%;
     margin-right: 20%;
 }
 .Resume-Link{
@@ -178,6 +188,7 @@ hr{
   /* Hover effect for project boxes */
   .Project-Item:hover {
     transform: scale(1.10); /* Slightly enlarge */
+    z-index: 1;
   }
 
 .Marco-Skills{
@@ -256,35 +267,4 @@ footer .Socials-List{
   font-family: Roboto;
   text-align: center;
   color:white;
-}
-.Project-List {
-  display: flex;
-  flex-wrap: wrap; /* Allow wrapping to the next line */
-  list-style-type: none; /* Remove bullet points */
-  margin: 0;
-  padding: 0;
-  gap: 20px; /* Space between items */
-  justify-content: center; /* Center the items */
-}
-
-/* Individual project box */
-.Project-Item {
-  width: 250px; /* Adjust as needed */
-  text-align: center;
-  transition: transform 0.3s ease;
-}
-
-.Project-Title{
-  font-family: Roboto;
-  font-size: 20;
-  background-color: rgb(229, 69, 69);
-  color:white;
-  border-radius: 5px;
-}
-
-/* Image inside the project box */
-.Project-Image {
-  width: 250px; /* Full width */
-  height: 250px; /* Maintain aspect ratio */
-  border-radius: 20px;
 }
