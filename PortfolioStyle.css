@@ -116,7 +116,7 @@ hr{
     margin-left: 20%;
     margin-right: 20%;
 }
-.Resume-Link{
+.link{
   text-decoration: none;
   color:rgb(229, 69, 69);
 }
@@ -267,4 +267,9 @@ footer .Socials-List{
   font-family: Roboto;
   text-align: center;
   color:white;
+}
+
+.Project-Images{
+  width: 400px;
+  margin-left:20%;
 }

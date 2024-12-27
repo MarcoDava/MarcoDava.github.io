@@ -5,6 +5,7 @@
     <title>Marco's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="PortfolioStyle.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="icon" href="M (1).png">
 </head>
 <body>
     <header>
@@ -42,6 +43,9 @@
     <hr>
     <main>
         <section class="Project1">
+            <p class="Marco-Desc">
+                To view the project, please view the <a href="https://github.com/MarcoDava/Handwriting_Recognition_Project" class="link">the Github repository</a>.
+            </p>
             <! -- Add a picture of the web application here-->
             <h1 class="Intro">ScriptSense</h1>
             <p class="Project1-Desc">
@@ -50,23 +54,88 @@
                 do not support cursor selection over text. The application is also able to accurately distinguish handwritten words. The interface 
                 is designed to be user-friendly with easy importing of pictures.
             </p>
-            <br><br>
+            <br>
             <h2 class="Project-Headers">
                 <mark class="Project-Headers-Background">How I did it:</mark>
             </h2>
-            <! -- Add a picture of the web application here-->
+            <img src="Handwriting-Rec.jpg" class="Project-Images">
             <p class="Project1-Desc">
                 This project is heavily inspired by the various resources online. The model takes in the colored and white pixels, compressing the 
                 image or drawn letter into a lower resolution matrix of 1's and 0's. From this compression, the time taken to distinguish the letters 
                 becomes faster. The AI then returns what the letter best resembles. To achieve this model, I used python and tensorflow. Tensorflow 
                 provided the necessary learning models for the AI to recognize the different characters. <br><br>
+
+                I used HTML, CSS and Javascript to make the frontend of the project. On top of the original video I foloowed to create this project,
+                I added my own fixings on the look of the project. 
             </p>
+            <br>
             <! -- Add a picture of the web application here-->
             <h2 class="Project-Headers">
-                <mark class="Project-Headers-Background">Lessons Learned:</mark>
+                <mark class="Project-Headers-Background">Mistakes Made:</mark>
             </h2>
+            <p class="Marco-Desc">
+                The problems I had with this project was that I struggled to understand certain things the video introduced, showing that I was 
+                missing some prerequisite knowledge. This lack of knowledge delayed the finishing of this project. What I should have done was start 
+                with a more fundamental project that would teach me the basics before delving into a more complex project.<br><br>
+            </p>
+            <h2 class="Project-Headers">
+                <mark class="Project-Headers-Background">Skills Mastered:</mark>
+            </h2>
+            <ul class="Skills-List">
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="tensorflow.svg" alt="Tensorflow Logo">
+                    <p class="Skills-Desc">Tensorflow</p>
+                </li>
+                <li class="Skills-Item">    
+                    <img class="Skills-Icons" src="python.png" alt="Python Logo">
+                    <p class="Skills-Desc">Python</p>    
+                </li>
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="flask.png" alt="Flask Logo">
+                    <p class="Skills-Desc">Flask</p>  
+                </li>
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="html.png" alt="HTML Logo">
+                    <p class="Skills-Desc">HTML</p>  
+                </li>
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="java-script.png" alt="JS Logo">
+                    <p class="Skills-Desc">JavaScript</p>  
+                </li>
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="css-3.png" alt="CSS Logo">
+                    <p class="Skills-Desc">CSS</p>  
+                </li>
+            </ul>
         </section>
     </main>
+    <footer>
+        <ul class="Socials-List">
+            <li class="Socials-Item">
+                <a href="https://www.linkedin.com/in/marcodava/">
+                    <img class="Socials-Icons" src="linkedin.png" alt="LinkedIn Logo">
+                </a>
+            </li>
+            <li class="Socials-Item">
+                <a href="https://github.com/MarcoDava">
+                    <img class="Socials-Icons" src="63de5479e8eb4676570c49e2579cab01.jpg" alt="Github Logo">
+                </a>
+            </li>
+            <li class="Socials-Item">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marco.a.dava@gmail.com&su=Hey There!&body=Email whatever you desire">
+                    <img class="Socials-Icons" src="325a4bd7b5041b4455e9a0b64c92190d.png" alt="Gmail Logo">
+                </a>
+            </li>
+            <li class="Socials-Item">
+                <a href="https://leetcode.com/u/MarcoDava/">
+                    <img class="Socials-Icons" src="leetcode-icon-430x512-6l72chsk-modified.png" alt="Leetcode Logo">
+                </a>
+            </li>
+        </ul>
+        <p class="Footer-Desc">
+            Copyright © Marco 2024, All rights reserved
+        </p>
+    </footer>
 </body>
 
 
