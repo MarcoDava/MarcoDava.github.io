@@ -32,7 +32,7 @@
 
 .nav-desc{
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: Roboto,sans-serif;
   text-align: center;
   text-decoration: none;
   color:black;
@@ -54,7 +54,7 @@
   border-radius: 5px;
 }
 .Marco-Desc{
-  font-family:  "Roboto";
+  font-family:  "Roboto",sans-serif;
   margin-left:20%;
   margin-right: 20%;
 }
@@ -69,27 +69,38 @@ header{
   z-index: 2;
 }
 
+body{
+  position:relative;
+  margin:0;
+  box-sizing: inherit;
+  min-height: 100%;
+  padding:10px;
+}
 main{
-  margin:90px;
+  box-sizing: inherit;
+  padding-bottom: 500px;
 }
 
 /* .Seperators{
 } */
 
 html {
-    margin-top: 30px;
-    background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+  height:100%;
+  padding:0;
 }
 
 h1{
-    font-family:  "Roboto";
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: 24px;
+  font-family:  "Roboto",sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 24px;
 }
 
 h2{
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
   margin-left: 20%;
   margin-right: 20%;
   font-size: 18px;
@@ -98,9 +109,9 @@ h2{
 hr{
   margin-top:3%
 }
-/*.About-Me{
-    
-}*/
+section{
+  margin-top: 5rem;
+}
 
 .Personal-Picture{
   width:200px;
@@ -112,7 +123,7 @@ hr{
 }
 
 .Marco-Desc{
-    font-family:  "Roboto";
+    font-family:  "Roboto",sans-serif;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -163,7 +174,7 @@ hr{
   }
   
   .Project-Title{
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     font-size: 20;
     background-color: rgb(229, 69, 69);
     color:white;
@@ -179,7 +190,7 @@ hr{
   
   /* Project description */
   .Project-Desc {
-    font-family:  "Roboto";
+    font-family:  "Roboto",sans-serif;
     font-size: 14px;
     background-color: rgb(250, 250, 250);
     border-radius: 10px;
@@ -192,7 +203,7 @@ hr{
   }
 
 .Marco-Skills{
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
   margin-left: 20%;
 }
 
@@ -217,7 +228,7 @@ hr{
 }
 
 .skills-Desc {
-  font-family:  "Roboto";
+  font-family:  "Roboto",sans-serif;
   text-align: center;
   font-size: 12px;
   color: #333;
@@ -227,13 +238,13 @@ hr{
   transform: scale(1.20); /* Slightly enlarge */
 }
 
+
+
 .Project-Headers{
   
 }
 .Seperators{
-
   line-height: 1600%;
- 
 }
 
 .Project-Headers-Background{
@@ -246,10 +257,14 @@ hr{
 .Project1-Desc{
   margin-left: 20%;
   margin-right: 20%;
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
 }
 footer{
-  padding-top:30px;
+  position:absolute;
+  bottom:0;
+  right:0;
+  left:0;
+  height:170px;
   background-color: rgb(0, 0, 0);
 }
 
@@ -258,13 +273,13 @@ footer .Socials-List{
   flex-wrap: wrap; /* Allow wrapping to the next line */
   list-style-type: none; /* Remove bullet points */
   margin: 0;
-  padding: 0;
+  padding: 40;
   gap: 20px; /* Space between items */
   justify-content: center; /* Center the items */
 }
 
 .Footer-Desc{
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
   text-align: center;
   color:white;
 }

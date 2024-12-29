@@ -44,36 +44,32 @@
     <main>
         <section class="Project3">
             <! -- Add a picture of the web application here-->
-            <img src="Qbot2(1).jpg" class="Project-Images">
-            <h1 class="Intro">Q bot Pathing Algorithm</h1>
+            <img src="QArm2.jpg" class="Project-Images">
+            <h1 class="Intro">Q Arm User-Controlled Algorithm</h1>
             <p class="Project1-Desc">
-                Timeline : January 2024 - February 2024<br>
-                In this project, my team was in charge of creating a program for a roomba to follow a line. This program involved using a 
-                simulation software to simulate how the Qbot would follow the path.  Once the Qbot followed the path, at the end it needed 
-                to drop an object into the objective. However, transferring from software simulations to the real Qbot was still challenging.
-                I also helped design mechanisms for the dumping of the object onto the mechanism.
+                Timeline : October 2023 - December 2023<br>
+                In this project, my team had to create a program that would transport a container into autoclaves. There had to be a program where the robotic arm would 
+                be user controlled and another where it would be automatic. The team had to have successful programs for both the virtual simulation environment and the 
+                physical Q-Arm. I was in charge of the Q-Arms movement in terms of rotation. 
             </p>
             <br>
             <h2 class="Project-Headers">
                 <mark class="Project-Headers-Background">How I did it:</mark>
             </h2>
             <p class="Project1-Desc">
-                To create the program, our team delegated tasks to each of us. I was in charge of color detection. The various sensors on the 
-                Qbot allowed for us to be able to detect where the objective is and if we are still on the line. If the sensor detected that
-                the color underneath it was not correct, it would correct its path until it detects the correct color again. This however, 
-                did not come without any issues.
+                The QArm code had built in functions capable of reading the potentiometer values. Using these values the program would be able to know whether to rotate 
+                clockwise or the other direction. In an automatic program, the Q-Arm would first detect the location of the container and rotate to the most direct angle. 
             </p>
             <br>
-            <img src="QbotProgram.png" class="Project-Images">
+            <img src="QArm-Program.png" class="Project-Images">
             <h2 class="Project-Headers">
                 <mark class="Project-Headers-Background">Mistakes Made:</mark>
             </h2>
             <p class="Marco-Desc">
-                The problems I faced was knowing how to get the bot back into the line. brainstorming with my team, we found a way to put it 
-                back on track. We created an algorithm to ensure that the bot was on the inner side of the loop, so that if it went off track, 
-                it would only have to turn one way to get back on track. however, we knew if this was not a loop, this algorithm would not be so 
-                successful. Reflecting back to it, instead of the algorith that would keep it on the inner loop, it would instead swerve within 
-                a certain radius until it got back on track. For the dumping Mechanism, I used CAD and 3D printed the arms. 
+                The problems I faced was working with the limited functions of the Q-Arm Library. This library only had a few types of movement and figuring out which ones 
+                to use became difficult. Working with the team, we agreed with one direction and found a way for all our functions to work together.  I also faced some problems 
+                with a team member of mine that lacked communication. We often had multiple misunderstandings and creation of redundant code that has already been made because
+                the member didnt communicate it. I talked formally with the member and came to a comprimise. For the rest of the project, there were little issues. 
                 <br><br>
             </p>
             <h2 class="Project-Headers">
@@ -87,10 +83,6 @@
                 <li class="Skills-Item">
                     <img class="Skills-Icons" src="HardwareIcon.png" alt="Hardware Logo">
                     <p class="Skills-Desc">Hardware</p>
-                </li>
-                <li class="Skills-Item">
-                    <img class="Skills-Icons" src="CAD.png" alt="CAD Logo">
-                    <p class="Skills-Desc">CAD</p>
                 </li>
             </ul>
         </section>
