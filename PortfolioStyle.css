@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
 .logo{
   margin-left: 2%;
   width:50px;
@@ -119,6 +125,7 @@ section{
   border-radius: 60px;
   float:left;
   margin-top:-20px;
+  margin-left:5%;
   z-index: 1;
 }
 
@@ -212,6 +219,7 @@ section{
   flex-wrap:wrap;
   list-style-type: none;
   margin-left:20%;
+  margin-right:20%;
   gap:30px;
 }
 
