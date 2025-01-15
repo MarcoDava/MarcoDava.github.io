@@ -115,21 +115,38 @@ section{
   margin-top: 5rem;
 }
 
+.wrapping-text{
+  flex:1;
+}
+
+.Picture-Of-Marco{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  max-width:100%;
+  max-height: 100%;
+}
+
 .Personal-Picture{
-  width:200px;
-  height:200px;
-  border-radius: 60px;
-  float:left;
+  max-width:200px;
+  max-height:200px;
+  border-radius: 100px;
   margin-top:-20px;
-  margin-left:5%;
   z-index: 1;
 }
 
 .Marco-Desc{
     font-family:  "Roboto",sans-serif;
-    margin-left: 20%;
-    margin-right: 20%;
+    
 }
+
+@media (max-width: 600px) { /* Adjust 600px as needed */
+  .Picture-Of-Marco {
+    flex-direction: column; /* Stack the items vertically */
+    text-align: center; /* Optional: center-align the text */
+  }
+}
+
 .link{
   text-decoration: none;
   color:rgb(229, 69, 69);
