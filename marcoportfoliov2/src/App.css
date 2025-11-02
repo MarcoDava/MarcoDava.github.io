@@ -20,8 +20,8 @@
 }
 
 .formatting-div {
-  min-width: 450px;
-  max-width: 48vw;
+  min-width: 380px;
+  max-width: 60vw;
 } 
 
 .header-container{
@@ -46,7 +46,7 @@
 }
 
 .intro-header {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color:#FDF4F8;
 }
 
@@ -56,13 +56,19 @@
   color:#A5C8D6;
 }
 
+.aboutme-header{
+  font-size: 1.5rem;
+  margin-bottom: 3vh;
+  color:#A5C8D6;
+}
+
 .summary-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-direction: row;
   margin-bottom: 5vh;
-  flex-basis: 60%;
+  flex-basis: 40%;
 }
 
 .profile-paragraph {
@@ -88,14 +94,15 @@
   justify-content: center;
   align-items: center;
   min-width:110px;
-  flex-basis:40%;
+  flex-basis:60%;
 }
 
 .profile-image {
+  width: 100%;
   border-radius: 50%;
 }
 
-.contact-me-text{
+.resume-button {
   color: #FDF4F8;
   background-color: #A5CBD6;
   padding:8px 15px;
@@ -107,27 +114,51 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 50%;
+  width: 300px;
 }
 
 .profile-icon{
   width:30px;
   height:30px;
-  cursor: pointer;
+}
+
+.project-list-container > h2{
+  font-size: 1.5rem;
+  margin-bottom: 3vh;
+  color:#A5C8D6;
 }
 
 .project-containers{
   display: flex;
   flex-direction: row;
-  align-items: space-between;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   width:100%;
   margin-bottom: 5vh;
 }
 
 .project-container{
-  min-width:350px;
-  max-width:350px;
+  max-width:380px;
+  height:300px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #A5C8D6;
   margin-bottom: 4vh;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  to {
+    background-position: 0% 0%;
+  }
+}
+
+.motion-safe\:animate-shine {
+  animation: shine var(--duration) infinite linear;
 }

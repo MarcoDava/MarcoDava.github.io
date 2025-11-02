@@ -7,19 +7,21 @@ function Profile() {
     <div className="profile-container">
       <div className="summary-container">
         <div className="profile-desc">
+          <div className="intro-text-container">
             <h3 className="intro-header">Hello, my name is</h3>
             <h1 className="name-header">Marco Dava</h1>
-            <p className="profile-paragraph">
-                A self taught machine learning engineering student that strives to solve everyday problems, specialized in reinforced learning models.
-            </p>
-            <div className="icon-container">
-                <a href="#contact-section" className="contact-me-text">
-                  <span>Contact Me</span>
-                </a>
-                <a href="https://github.com/MarcoDava"><img className="profile-icon" src={icon1} alt="GitHub Icon"></img></a>
-                <a href="https://www.linkedin.com/in/marcodava/"><img className="profile-icon"  src={icon2} alt="LinkedIn Icon"></img></a>
-                <a href="mailto:marco.a.dava@gmail.com"><img className="profile-icon" src={icon3} alt="Gmail Icon"></img></a>
-            </div>
+          </div>
+          <p className="profile-paragraph">
+              A self taught machine learning engineering student that strives to solve everyday problems, specialized in reinforced learning models.
+          </p>
+          <div className="icon-container">
+              <a href="https://drive.google.com/file/d/1I0EIPmfm525Ec2eEeG5MQetQ3cySBszi/view?usp=sharing" className="resume-button">
+                <span>Resume</span>
+              </a>
+              <a href="https://github.com/MarcoDava"><img className="profile-icon" src={icon1} alt="GitHub Icon"></img></a>
+              <a href="https://www.linkedin.com/in/marcodava/"><img className="profile-icon"  src={icon2} alt="LinkedIn Icon"></img></a>
+              <a href="mailto:marco.a.dava@gmail.com"><img className="profile-icon" src={icon3} alt="Gmail Icon"></img></a>
+          </div>
         </div>
         <div className="image-container">
           <img className="profile-image" src={profilePic} alt="profile-pic"/>
