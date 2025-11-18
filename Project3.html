@@ -1,0 +1,125 @@
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="PortfolioStyle.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="icon" href="pictures/M (1).png">
+</head>
+<body>
+    <header>
+        <img class="logo" src="pictures/M (1).png">
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item">   
+                    <a class="nav-link" href="Portfolio.html"> 
+                        <p class="nav-desc">
+                            Home
+                        </p> 
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Projects.html"> 
+                        <p class="nav-desc">
+                            <mark class="Selected-Nav">Projects</mark>
+                        </p>
+                    </a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Skills.html"> 
+                        <p class="nav-desc">
+                            Skills
+                        </p>
+                    </a>
+                    
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <hr>
+    <main>
+        <section class="Project3">
+            <p class="Marco-Desc">
+                To view the project, please view the <a href="https://github.com/MarcoDava/Tic-Tac-Toe" class="link">the Github repository</a>.
+            </p>
+            <! -- Add a picture of the web application here-->
+            <img src="pictures/TicTacToeImage.jpg" class="Project-Images">
+            <h1 class="Intro">Tic Tac Toe</h1>
+            <p class="Project1-Desc">
+                Timeline : November 2024 - December 2024<br>
+                In this project I created a console version of tic-tac-toe with a player and computer mode. The project utilized important principles 
+                of object oriented programming. The twist on the game is that the game must also be able to played up to a 30x30 grid.
+            </p>
+            <br>
+            <h2 class="Project-Headers">
+                <mark class="Project-Headers-Background">How I did it:</mark>
+            </h2>
+            <p class="Project1-Desc">
+                To create the program, I split the functions into multiple classes. One class was in charge of display, another for changing 
+                the board, another for checking for win conditions and the last serving as the main. To achieve polymorphism, each player in 
+                the main are declared as the superclass for players and the specialized classes would either be human or computer. 
+            </p>
+            <br>
+            <! -- Add a picture of the web application here-->
+            <h2 class="Project-Headers">
+                <mark class="Project-Headers-Background">Mistakes Made:</mark>
+            </h2>
+            <p class="Marco-Desc">
+                The problems I faced was the logic process of detecting when a player has won. Originally, I had an algorithm check the entire 
+                board. This complicated the process, as the check can be done in a faster andmore efficient way. Instead of checking the board, 
+                the algorithm only checks the row, column and diagonals of where the specific marker was placed. This ensured that the check was faster
+                and went through less indexes. Going foward, I learned that before starting the solution, I need to properly think of how the 
+                solution will work.
+                <br><br>
+            </p>
+            <h2 class="Project-Headers">
+                <mark class="Project-Headers-Background">Skills Mastered:</mark>
+            </h2>
+            <ul class="Skills-List">
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="pictures/java.png" alt="Java Logo">
+                    <p class="Skills-Desc">Java</p>
+                </li>
+                <li class="Skills-Item">    
+                    <img class="Skills-Icons" src="pictures/Maven.png" alt="Maven Logo">
+                    <p class="Skills-Desc">Maven</p>    
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <ul class="Socials-List">
+            <li class="Socials-Item">
+                <a href="https://www.linkedin.com/in/marcodava/">
+                    <img class="Socials-Icons" src="pictures/linkedin.png" alt="LinkedIn Logo">
+                </a>
+            </li>
+            <li class="Socials-Item">
+                <a href="https://github.com/MarcoDava">
+                    <img class="Socials-Icons" src="pictures/63de5479e8eb4676570c49e2579cab01.jpg" alt="Github Logo">
+                </a>
+            </li>
+            <li class="Socials-Item">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marco.a.dava@gmail.com&su=Hey There!&body=Email whatever you desire">
+                    <img class="Socials-Icons" src="pictures/325a4bd7b5041b4455e9a0b64c92190d.png" alt="Gmail Logo">
+                </a>
+            </li>
+            <li class="Socials-Item">
+                <a href="https://leetcode.com/u/MarcoDava/">
+                    <img class="Socials-Icons" src="pictures/leetcode-icon-430x512-6l72chsk-modified.png" alt="Leetcode Logo">
+                </a>
+            </li>
+        </ul>
+        <p class="Footer-Desc">
+            Copyright © Marco 2024, All rights reserved
+        </p>
+    </footer>
+</body>
+
+
+
+</html>

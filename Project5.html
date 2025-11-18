@@ -1,0 +1,121 @@
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="PortfolioStyle.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="icon" href="pictures/M (1).png">
+</head>
+<body>
+    <header>
+        <img class="logo" src="pictures/M (1).png">
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item">   
+                    <a class="nav-link" href="Portfolio.html"> 
+                        <p class="nav-desc">
+                            Home
+                        </p> 
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Projects.html"> 
+                        <p class="nav-desc">
+                            <mark class="Selected-Nav">Projects</mark>
+                        </p>
+                    </a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Skills.html"> 
+                        <p class="nav-desc">
+                            Skills
+                        </p>
+                    </a>
+                    
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <hr>
+    <main>
+        <section class="Project3">
+            <! -- Add a picture of the web application here-->
+            <img src="pictures/QArm2.jpg" class="Project-Images">
+            <h1 class="Intro">Q Arm User-Controlled Algorithm</h1>
+            <p class="Project1-Desc">
+                Timeline : October 2023 - December 2023<br>
+                In this project, my team had to create a program that would transport a container into autoclaves. There had to be a program where the robotic arm would 
+                be user controlled and another where it would be automatic. The team had to have successful programs for both the virtual simulation environment and the 
+                physical Q-Arm. I was in charge of the Q-Arms movement in terms of rotation. 
+            </p>
+            <br>
+            <h2 class="Project-Headers">
+                <mark class="Project-Headers-Background">How I did it:</mark>
+            </h2>
+            <p class="Project1-Desc">
+                The QArm code had built in functions capable of reading the potentiometer values. Using these values the program would be able to know whether to rotate 
+                clockwise or the other direction. In an automatic program, the Q-Arm would first detect the location of the container and rotate to the most direct angle. 
+            </p>
+            <br>
+            <img src="pictures/QArm-Program.png" class="Project-Images">
+            <h2 class="Project-Headers">
+                <mark class="Project-Headers-Background">Mistakes Made:</mark>
+            </h2>
+            <p class="Marco-Desc">
+                The problems I faced was working with the limited functions of the Q-Arm Library. This library only had a few types of movement and figuring out which ones 
+                to use became difficult. Working with the team, we agreed with one direction and found a way for all our functions to work together.  I also faced some problems 
+                with a team member of mine that lacked communication. We often had multiple misunderstandings and creation of redundant code that has already been made because
+                the member didnt communicate it. I talked formally with the member and came to a comprimise. For the rest of the project, there were little issues. 
+                <br><br>
+            </p>
+            <h2 class="Project-Headers">
+                <mark class="Project-Headers-Background">Skills Mastered:</mark>
+            </h2>
+            <ul class="Skills-List">
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="pictures/python.png" alt="Python Logo">
+                    <p class="Skills-Desc">Python</p>
+                </li>
+                <li class="Skills-Item">
+                    <img class="Skills-Icons" src="pictures/HardwareIcon.png" alt="Hardware Logo">
+                    <p class="Skills-Desc">Hardware</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <ul class="Socials-List">
+            <li class="Socials-Item">
+                <a href="https://www.linkedin.com/in/marcodava/">
+                    <img class="Socials-Icons" src="pictures/linkedin.png" alt="LinkedIn Logo">
+                </a>
+            </li>
+            <li class="Socials-Item">
+                <a href="https://github.com/MarcoDava">
+                    <img class="Socials-Icons" src="pictures/63de5479e8eb4676570c49e2579cab01.jpg" alt="Github Logo">
+                </a>
+            </li>
+            <li class="Socials-Item">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marco.a.dava@gmail.com&su=Hey There!&body=Email whatever you desire">
+                    <img class="Socials-Icons" src="pictures/325a4bd7b5041b4455e9a0b64c92190d.png" alt="Gmail Logo">
+                </a>
+            </li>
+            <li class="Socials-Item">
+                <a href="https://leetcode.com/u/MarcoDava/">
+                    <img class="Socials-Icons" src="pictures/leetcode-icon-430x512-6l72chsk-modified.png" alt="Leetcode Logo">
+                </a>
+            </li>
+        </ul>
+        <p class="Footer-Desc">
+            Copyright © Marco 2024, All rights reserved
+        </p>
+    </footer>
+</body>
+
+
+
+</html>
